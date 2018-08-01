@@ -1,11 +1,14 @@
 package testpackage;
 
+import org.testng.annotations.Test;
+
 public class TestClass2 {
 
-	public static void main(String[] args) {
+	@Test
+	public  void m1() {
 		// TODO Auto-generated method stub
 		
-		System.out.println("hi");
+		System.out.println("Bye");
 
 	}
 
